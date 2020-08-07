@@ -11,7 +11,7 @@
 }
 
 .logo-container {
-    height: 15rem;
+    height: 10rem;
 }
 
 .hero-image {
@@ -112,6 +112,15 @@
         text-align: left;
     }
 
+    .logo-container h2 {
+        text-align: initial;
+        font-size: 3.6rem;
+    }
+
+    .logo-container img {
+        height: 100%;
+    }
+
     .hero-image {
         grid-area: hero;
         justify-self: end;
@@ -122,7 +131,7 @@
         justify-content: flex-start;
     }
 
-    .buttons-container a{
+    .buttons-container a {
         font-size: 2.4rem;
     }
 
