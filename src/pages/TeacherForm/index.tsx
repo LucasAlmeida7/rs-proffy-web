@@ -38,7 +38,7 @@ const history = useHistory();
     
     function setScheduleItemValue(index: number, field: string, value: string){
         const newArray = scheduleItems.map((item, i) => {
-            if(index == i) {
+            if(index === i) {
                 return { ...item, [field]: value };
             }
 
